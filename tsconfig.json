@@ -1,0 +1,24 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "module": "esnext",
+    "experimentalDecorators": true,
+    "skipLibCheck": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "sourceMap": true,
+    "target": "es5",
+    "lib": [
+      "esnext",
+      "dom"
+    ],
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "allowJs": false,
+    "downlevelIteration": true
+  },
+  "exclude": ["node_modules", "dist"],
+  "atom": {
+    "rewriteTsconfig": false
+  }
+}
